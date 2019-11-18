@@ -1,0 +1,18 @@
+{
+    "name": "sivadier/composer",
+    "description": "quete composer wcs",
+    "authors": [
+        {
+            "name": "Flo28330",
+            "email": "florence.sivadier@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "src"
+        }
+    }
+}
